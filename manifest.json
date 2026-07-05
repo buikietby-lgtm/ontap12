@@ -1,0 +1,14 @@
+{
+  "name": "Out Trình Kiến Thức 12",
+  "short_name": "Ontap12",
+  "description": "Nền tảng ôn thi THPT Quốc gia miễn phí — Toán 12 & Vật Lý 12",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0a2e",
+  "theme_color": "#7209b7",
+  "orientation": "portrait-primary",
+  "categories": ["education", "exam preparation"],
+  "icons": [
+    {  "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"  }
+  ]
+}
