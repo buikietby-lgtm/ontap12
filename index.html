@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -3976,7 +3976,7 @@
                                      {content:'Quay hình giới hạn bởi y=2x, trục Ox, x=0, x=1 quanh Oy được thể tích?',options:['π/3','2π/3','π','4π/3'],correct:'B',trap:'y=2x → x=y/2. V = π∫₀² (y/2)² dy = π∫₀² y²/4 dy = π/4[y³/3]₀² = π/4(8/3) = 2π/3.',level:'hard',levelLabel:'Vận dụng'},
                                     {content:'Diện tích hình phẳng giới hạn bởi y=√x, y=x trên [0;1] là:',options:['1/2','1/6','1/4','1/3'],correct:'B',trap:'S = ∫₀¹ (√x - x) dx = [2x√x/3 - x²/2]₀¹ = 2/3 - 1/2 = 1/6.',level:'medium',levelLabel:'Thông hiểu'},
                                     {content:'Thể tích khối quay y=cos x, x∈[0,π/2] quanh Ox:',options:['π/4','π²/8','π²/4','π/2'],correct:'C',trap:'V=π∫₀^{π/2} cos²x dx=π∫₀^{π/2} (1+cos2x)/2 dx=π/2[x+sin2x/2]₀^{π/2}=π/2(π/2)=π²/4.',level:'hard',levelLabel:'Vận dụng'},
-                                    {content:'Công thức tính diện tích giữa y=f(x) và y=g(x) trên [a;b]:',options:['S = |∫ₐᵇ f(x)dx - ∫ₐᵇ g(x)dx|','S = ∫ₐᵇ |f(x)-g(x)| dx','S = ∫ₐᵇ (f(x)-g(x)) dx','S = π∫ₐᵇ [f(x)-g(x)]² dx']² dx','S = ∫ₐᵇ (f(x)-g(x)) dx']² dx','S = |∫ₐᵇ f(x)dx - ∫ₐᵇ g(x)dx|'],correct:'B',trap:'Diện tích giữa 2 đường luôn là tích phân trị tuyệt đối của hiệu, vì diện tích không âm.',level:'easy',levelLabel:'Nhận biết'},
+                                    {content:'Công thức tính diện tích giữa y=f(x) và y=g(x) trên [a;b]:',options:['S = |∫ₐᵇ f(x)dx - ∫ₐᵇ g(x)dx|','S = ∫ₐᵇ |f(x)-g(x)| dx','S = ∫ₐᵇ (f(x)-g(x)) dx','S = π∫ₐᵇ [f(x)-g(x)]² dx'],correct:'B',trap:'Diện tích giữa 2 đường luôn là tích phân trị tuyệt đối của hiệu, vì diện tích không âm.',level:'easy',levelLabel:'Nhận biết'},
                                     {content:'Quay y=x², x∈[0,2] quanh Ox, thể tích là:',options:['8π','32π/5','4π','16π/3'],correct:'B',trap:'V=π∫₀² (x²)² dx=π∫₀² x⁴ dx=π[x⁵/5]₀²=π(32/5)=32π/5.',level:'medium',levelLabel:'Thông hiểu'}
                                 ]
                             },
@@ -4000,30 +4000,7 @@
                                     {content:'Diện tích hình y=x²-4x+3 và trục Ox:',options:['2/3','1','5/3','4/3'],correct:'B',trap:'x²-4x+3=0 → x=1,3. S=∫₁³ |x²-4x+3| dx=∫₁³ (-x²+4x-3) dx=[-x³/3+2x²-3x]₁³=(-9+18-9)-(-1/3+2-3)=(-4/3)=4/3.',level:'hard',levelLabel:'Vận dụng'},
                                     {content:'∫₀¹ (eˣ + 1) dx bằng:',options:['2','e-1','e+1','e'],correct:'B',trap:'∫₀¹ (eˣ+1) dx = [eˣ+x]₀¹ = (e+1)-(1+0) = e.',level:'medium',levelLabel:'Thông hiểu'}
                                 ]
-                            }
-                                ]
-                            },
-                            {
-                                id: "t_c4_bt",
-                                num: "BT",
-                                name: "Bài tập cuối chương IV (VIP)",
-                                vip: true,
-                                simulationType: "integral",
-                                theory: [
-                                    "📐 <strong>Ôn tập Chương 4 — Nguyên hàm & Tích phân:</strong><br>• Bảng nguyên hàm cơ bản: xⁿ, 1/x, eˣ, aˣ, sin, cos<br>• Nguyên hàm từng phần: <span class=\"formula\">∫ u dv = uv - ∫ v du</span><br>• Đổi biến: <span class=\"formula\">∫ f(u(x))·u'(x)dx = F(u(x)) + C</span><br>• Newton-Leibniz: <span class=\"formula\">∫<sub>a</sub><sup>b</sup> f(x)dx = F(b) - F(a)</span><br>• Diện tích: <span class=\"formula\">S = ∫ |f(x)-g(x)| dx</span><br>• Thể tích: <span class=\"formula\">V = π∫ [f(x)]² dx</span>"
-                                ],
-                                hasExercises: true,
-                                questions: [
-                                    {content:'∫ x² dx là:',options:['x³ + C','x/3 + C','2x + C','x³/3 + C'],correct:'D',trap:'∫ x² dx = x²⁺¹/(2+1) + C = x³/3 + C.',level:'easy',levelLabel:'Nhận biết'},
-                                    {content:'∫₀² (x² + 1) dx bằng:',options:['14/3','2','4','10/3'],correct:'A',trap:'∫₀² (x²+1) dx = [x³/3 + x]₀² = (8/3 + 2) - 0 = 14/3.',level:'medium',levelLabel:'Thông hiểu'},
-                                    {content:'Diện tích hình phẳng y=x³, y=0, x=-1, x=1 là:',options:['1/2','1','2/3','0'],correct:'A',trap:'S = ∫₋₁¹ |x³| dx = ∫₋₁⁰ (-x³) dx + ∫₀¹ x³ dx = [-x⁴/4]₋₁⁰ + [x⁴/4]₀¹ = 0-(-1/4) + 1/4-0 = 1/2.',level:'hard',levelLabel:'Vận dụng'},
-                                     {content:'Thể tích khối khi quay y=sin x, x∈[0,π] quanh Ox:',options:['π/2','π','π²','π²/2'],correct:'D',trap:'V=π∫₀^π sin²x dx=π∫₀^π (1-cos2x)/2 dx=π/2[x - sin2x/2]₀^π=π/2(π-0)=π²/2.',level:'hard',levelLabel:'Vận dụng'},
-                                    {content:'∫ (2x + 1)³ dx bằng:',options:['(2x+1)⁴ + C','(2x+1)⁴/8 + C','3(2x+1)² + C','(2x+1)⁴/4 + C'],correct:'B',trap:'∫ (2x+1)³ dx. Đặt u=2x+1, du=2dx → dx=du/2. ∫u³·du/2 = u⁴/(4×2) = (2x+1)⁴/8 + C.',level:'hard',levelLabel:'Vận dụng'},
-                                    {content:'∫₋₂² (x⁵ + x³) dx bằng:',options:['0','-44','44','22'],correct:'A',trap:'Hàm lẻ trên [-2;2] → tích phân = 0. Cả x⁵ và x³ đều là hàm lẻ.',level:'medium',levelLabel:'Thông hiểu'},
-                                    {content:'Diện tích hình y=x²-4x+3 và trục Ox:',options:['1','5/3','4/3','2/3'],correct:'C',trap:'x²-4x+3=0 → x=1,3. S=∫₁³ |x²-4x+3| dx=∫₁³ (-x²+4x-3) dx=[-x³/3+2x²-3x]₁³=(-9+18-9)-(-1/3+2-3)=(-4/3)=4/3.',level:'hard',levelLabel:'Vận dụng'},
-                                    {content:'∫₀¹ (eˣ + 1) dx bằng:',options:['e','2','e-1','e+1'],correct:'A',trap:'∫₀¹ (eˣ+1) dx = [eˣ+x]₀¹ = (e+1)-(1+0) = e.',level:'medium',levelLabel:'Thông hiểu'}
-                                ]
-                            }
+                             },
                         ]
                     },
                     {
