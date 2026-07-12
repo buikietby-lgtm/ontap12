@@ -11,6 +11,23 @@
       gtag('js', new Date());
       gtag('config', 'AW-18311195082');
     </script>
+    <!-- Event snippet for Lượt xem trang conversion -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18311195082/y8__CJvqtM0cEMrTuptE',
+          'value': 1.0,
+          'currency': 'VND',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
     <title>Out Trình Kiến Thức 12 - Đấu Trường Ôn Thi Quốc Gia</title>
     <meta name="google-adsense-account" content="ca-pub-9634785317344816">
     <meta name="google-site-verification" content="google84773d7dc170f47d">
@@ -6740,17 +6757,17 @@
         var AD_CONFIG = {
             enabled: true,
             sidebar: {
-                html: '<div style="background:linear-gradient(135deg,#e8f0fe,#d2e3fc);border-radius:12px;font-family:Arial,sans-serif;color:#202124;padding:20px 18px;min-height:25vh;display:flex;flex-direction:column;gap:12px;overflow-y:auto"><div style="text-align:center"><span style="font-size:32px">📊</span><div style="font-size:13px;font-weight:700;margin:4px 0">Chiến dịch Tối đa hoá hiệu suất</div><div style="font-size:10px;color:#5f6368;line-height:1.4">Kết nối với đối tượng phù hợp. AI Google tối ưu hoá quảng cáo để nhận nhiều lượt xem trang hơn.</div></div><div style="background:#fff;border-radius:8px;padding:10px;border:1px solid #dadce0"><div style="font-size:10px;font-weight:600;color:#5f6368;margin-bottom:4px">🔍 Chủ đề tìm kiếm</div><div style="background:#f1f3f4;border-radius:5px;padding:6px 8px;font-size:10px;color:#80868b">Thêm chủ đề (tối đa 50)</div></div><div style="display:flex;gap:6px"><div style="flex:1;background:#fff;border-radius:8px;padding:8px;border:1px solid #dadce0;text-align:center"><div style="font-size:9px;font-weight:600;color:#5f6368">📍 Vị trí</div><div style="font-size:11px;color:#202124">Việt Nam</div></div><div style="flex:1;background:#fff;border-radius:8px;padding:8px;border:1px solid #dadce0;text-align:center"><div style="font-size:9px;font-weight:600;color:#5f6368">🌐 Ngôn ngữ</div><div style="font-size:11px;color:#202124">Tiếng Việt</div></div></div><div style="background:#fff;border-radius:8px;padding:12px;border:1px solid #dadce0"><div style="font-size:11px;font-weight:600;color:#202124;margin-bottom:6px">💰 Đặt chiến lược giá thầu</div><div style="font-size:10px;color:#5f6368;margin-bottom:8px;line-height:1.4">Đặt lợi tức mục tiêu trên chi tiêu quảng cáo.</div><div style="background:#e8f0fe;border-radius:6px;padding:8px 10px;border:1px solid #aecbfa;display:flex;align-items:center;justify-content:space-between"><span style="font-size:11px;font-weight:600">ROAS mục tiêu</span><span style="font-size:12px;font-weight:700;color:#1a73e8">200%</span></div></div><a href="https://ads.google.com/intl/vi_vn/home/" target="_blank" rel="noopener" style="display:block;background:#1a73e8;color:#fff;padding:9px;border-radius:20px;font-size:12px;text-decoration:none;font-weight:600;text-align:center">Tạo chiến dịch</a><div style="font-size:8px;color:#9aa0a6;text-align:center">Google LLC · Hỗ trợ: 84 444 583 178</div></div>',
+                html: '<div style="background:linear-gradient(135deg,#e8f0fe,#d2e3fc);border-radius:12px;font-family:Arial,sans-serif;color:#202124;padding:20px 18px;min-height:25vh;display:flex;flex-direction:column;gap:12px;overflow-y:auto"><div style="text-align:center"><span style="font-size:32px">📊</span><div style="font-size:13px;font-weight:700;margin:4px 0">Chiến dịch Tối đa hoá hiệu suất</div><div style="font-size:10px;color:#5f6368;line-height:1.4">Kết nối với đối tượng phù hợp. AI Google tối ưu hoá quảng cáo để nhận nhiều lượt xem trang hơn.</div></div><div style="background:#fff;border-radius:8px;padding:10px;border:1px solid #dadce0"><div style="font-size:10px;font-weight:600;color:#5f6368;margin-bottom:4px">🔍 Chủ đề tìm kiếm</div><div style="background:#f1f3f4;border-radius:5px;padding:6px 8px;font-size:10px;color:#80868b">Thêm chủ đề (tối đa 50)</div></div><div style="display:flex;gap:6px"><div style="flex:1;background:#fff;border-radius:8px;padding:8px;border:1px solid #dadce0;text-align:center"><div style="font-size:9px;font-weight:600;color:#5f6368">📍 Vị trí</div><div style="font-size:11px;color:#202124">Việt Nam</div></div><div style="flex:1;background:#fff;border-radius:8px;padding:8px;border:1px solid #dadce0;text-align:center"><div style="font-size:9px;font-weight:600;color:#5f6368">🌐 Ngôn ngữ</div><div style="font-size:11px;color:#202124">Tiếng Việt</div></div></div><div style="background:#fff;border-radius:8px;padding:12px;border:1px solid #dadce0"><div style="font-size:11px;font-weight:600;color:#202124;margin-bottom:6px">💰 Đặt chiến lược giá thầu</div><div style="font-size:10px;color:#5f6368;margin-bottom:8px;line-height:1.4">Đặt lợi tức mục tiêu trên chi tiêu quảng cáo.</div><div style="background:#e8f0fe;border-radius:6px;padding:8px 10px;border:1px solid #aecbfa;display:flex;align-items:center;justify-content:space-between"><span style="font-size:11px;font-weight:600">ROAS mục tiêu</span><span style="font-size:12px;font-weight:700;color:#1a73e8">200%</span></div></div><a href="https://ads.google.com/intl/vi_vn/home/" target="_blank" rel="noopener" onclick="return gtag_report_conversion(this.href);" style="display:block;background:#1a73e8;color:#fff;padding:9px;border-radius:20px;font-size:12px;text-decoration:none;font-weight:600;text-align:center">Tạo chiến dịch</a><div style="font-size:8px;color:#9aa0a6;text-align:center">Google LLC · Hỗ trợ: 84 444 583 178</div></div>',
                 link: '',
                 img: ''
             },
             banner: {
-                html: '<div style="background:linear-gradient(135deg,#e8f0fe,#fce8e6);border-radius:12px;padding:14px 18px;font-family:Arial,sans-serif;color:#202124;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px"><div style="display:flex;align-items:center;gap:10px"><span style="font-size:28px">📢</span><div><div style="font-size:13px;font-weight:700">Chiến dịch Tối đa hoá hiệu suất</div><div style="font-size:11px;color:#5f6368">AI Google tự động tối ưu quảng cáo từ hình ảnh, video và văn bản của bạn</div></div></div><div style="display:flex;gap:8px;align-items:center"><a href="https://ads.google.com/intl/vi_vn/home/" target="_blank" rel="noopener" style="background:#1a73e8;color:#fff;padding:7px 16px;border-radius:20px;font-size:12px;text-decoration:none;font-weight:600;white-space:nowrap">Tạo chiến dịch</a><span style="font-size:10px;color:#5f6368">Gọi: 84 444 583 178</span></div></div>',
+                html: '<div style="background:linear-gradient(135deg,#e8f0fe,#fce8e6);border-radius:12px;padding:14px 18px;font-family:Arial,sans-serif;color:#202124;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px"><div style="display:flex;align-items:center;gap:10px"><span style="font-size:28px">📢</span><div><div style="font-size:13px;font-weight:700">Chiến dịch Tối đa hoá hiệu suất</div><div style="font-size:11px;color:#5f6368">AI Google tự động tối ưu quảng cáo từ hình ảnh, video và văn bản của bạn</div></div></div><div style="display:flex;gap:8px;align-items:center"><a href="https://ads.google.com/intl/vi_vn/home/" target="_blank" rel="noopener" onclick="return gtag_report_conversion(this.href);" style="background:#1a73e8;color:#fff;padding:7px 16px;border-radius:20px;font-size:12px;text-decoration:none;font-weight:600;white-space:nowrap">Tạo chiến dịch</a><span style="font-size:10px;color:#5f6368">Gọi: 84 444 583 178</span></div></div>',
                 link: '',
                 img: ''
             },
             footer: {
-                html: '<div style="background:#f8f9fa;border-radius:8px;padding:10px 14px;font-family:Arial,sans-serif;color:#202124;text-align:center;font-size:11px"><span style="font-weight:600">Google Ads</span> — Thêm thành phần quảng cáo, để AI tìm kiếm kết hợp tối ưu cho bạn. <a href="https://ads.google.com/intl/vi_vn/home/" target="_blank" rel="noopener" style="color:#1a73e8;text-decoration:none">Tìm hiểu thêm</a> | Hotline: 84 444 583 178</div>',
+                html: '<div style="background:#f8f9fa;border-radius:8px;padding:10px 14px;font-family:Arial,sans-serif;color:#202124;text-align:center;font-size:11px"><span style="font-weight:600">Google Ads</span> — Thêm thành phần quảng cáo, để AI tìm kiếm kết hợp tối ưu cho bạn. <a href="https://ads.google.com/intl/vi_vn/home/" target="_blank" rel="noopener" onclick="return gtag_report_conversion(this.href);" style="color:#1a73e8;text-decoration:none">Tìm hiểu thêm</a> | Hotline: 84 444 583 178</div>',
                 link: '',
                 img: ''
             }
